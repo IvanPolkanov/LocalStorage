@@ -1,9 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Just Local Storage</Title>
+		<Description>Just a simle local storage for fast data store via bin file.</Description>
+		<PackageProjectUrl>https://github.com/IvanPolkanov/LocalStorage</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/IvanPolkanov/LocalStorage</RepositoryUrl>
+		<Authors>Ivan Polkanov</Authors>
+		<Version>1.0.0</Version>
+		<PacketId></PacketId>
+		<PackageId>JustLocalStorage</PackageId>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
